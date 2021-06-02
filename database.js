@@ -58,7 +58,7 @@ const livros = [
 },
 {
     nome: 'A elite do atraso, da escravidão a Bolsonaro',
-    categoria: 'Política e sociedade, História do Brasil',
+    categoria: 'História do Brasil',
     paginas: 272,
     lido: true,
     recomendado: true 
