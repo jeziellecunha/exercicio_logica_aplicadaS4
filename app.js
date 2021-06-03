@@ -11,7 +11,7 @@ switch (opcao) {
     console.log("Você escolheu a opção 1- Buscar Livros pela categoria");
     console.log(" As opções disponíveis de categoria são: ");
     console.log(
-      "Ciência da computação, Leitura de auto-ajuda, Romance, Biografia, Leitura de negócios, História do Brasil"
+      "ciencia da computacao, leitura de auto-ajuda, romance, biografia, leitura de negocios, história do brasil"
     );
 
     const categoriaEscolhida = leitorDeEntrada.question(
