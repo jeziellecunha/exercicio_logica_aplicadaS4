@@ -28,15 +28,19 @@ switch (opcao) {
 
   case "2":
     console.log("Você escolheu a opção 2- Listar livros recomendados");
+
     const livrosRecomendados = livros.filter(
       (livro) => livro.recomendado == true && livro.lido == true);
+
     console.log(livrosRecomendados);
 
     break;
 
   case "3":
-    console.log("Você escolheu a opção 3- Lista de desejos")
+    console.log("Você escolheu a opção 3- Lista de desejos");
+
     const livrosNaoLidos = livros.filter((livro) => livro.lido == false);
+    
     console.log(livrosNaoLidos);
 
     break;
